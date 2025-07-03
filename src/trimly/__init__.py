@@ -1,1 +1,1 @@
-from .trimly import trim_audio, clean_tmp
+from .core import trim_audio, clean_tmp

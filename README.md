@@ -10,7 +10,7 @@
 
 Trimly is a smart, minimalist tool for cutting long pauses and dead air from audio. It’s perfect for podcasters, voice actors, audiobook narrators — or anyone who wants cleaner, tighter voice recordings with zero editing.
 
-🚀 [**Live Demo on Hugging Face Spaces →**](https://huggingface.co/spaces/your-username/trimly)
+🚀 [**Live Demo on Hugging Face Spaces →**](https://huggingface.co/spaces/LogicWeaverHF/trimly)
 
 ## Features
 
