@@ -1,66 +1,53 @@
 # Contributing to Trimly
 
-Thanks for your interest in contributing to **Trimly** — a simple tool for cleaning up audio by trimming silence using FFmpeg. This guide outlines how you can get involved.
+Thanks for your interest in contributing to **Trimly**, a Logic Weaver project. We welcome pull requests, issues, and ideas — as long as they push the project forward with clarity and quality.
 
-##  Code of Conduct
+## Code of Conduct
 
 Please make sure to review and follow our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
-##  Getting Started
+## How to Contribute
 
-1. **Fork the repo**  
-2. **Clone your fork locally:**
+### 1. Fork the Repo
 
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/trimly.git
-   cd trimly
-   ```
+Create your own fork of the repository and clone it locally:
 
-3. **Create a new branch:**
+```bash
+git clone https://github.com/LogicWeaver/trimly.git
+cd trimly
+```
 
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
+### 2. Create a Feature Branch
 
-## Development Workflow
+Use a clear, descriptive branch name:
 
-1. Install dependencies in a virtual environment:
+```bash
+git checkout -b feature/your-feature-name
+```
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+### 3. Make Your Changes
 
-2. Make your changes in `app.py` or wherever needed.
+Write clean, idiomatic code. Stick to project conventions. Add tests if applicable. No dead code. No “just messing around” commits.
 
-3. Test the Gradio app locally:
+### 4. Commit Smart
 
-   ```bash
-   python app.py
-   ```
+Use clear, conventional commit messages. Follow this pattern:
 
-4. Use clear, conventional commit messages:
+```bash
+type(scope): short summary
+ex: feat(chunking): add adaptive sentence segmentation
+```
 
-   ```bash
-   git commit -m "feat: add new feature to improve trimming options"
-   ```
+### 5. Push and Open a Pull Request
 
-5. Push your changes:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-6. Submit a Pull Request to the main `LogicWeave/trimly` repo.
-
+Push your branch and open a pull request. Fill out the [PR template](https://github.com/LogicWeaver/trimly/blob/main/.github/pull_request_template.md), describe what you did, and link any related issues.
 
 ## PR Guidelines
 
-* Keep pull requests focused and minimal
-* Include a short summary of what you’ve changed
-* Feel free to open a Draft PR early for discussion or feedback
-* Always test your UI changes before submitting
+- Keep pull requests focused and minimal
+- Include a short summary of what you’ve changed
+- Feel free to open a Draft PR early for discussion or feedback
+- Always test your UI changes before submitting
 
 ## Reporting Bugs
 

@@ -1,61 +1,63 @@
 # Trimly
 
-**Silence Trimmer for Voiceovers — powered by FFmpeg + Python + Gradio**
+[![Version](https://img.shields.io/badge/version-1.0.1-blue.svg)](https://github.com/LogicWeaver/trimly/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Powered by FFmpeg](https://img.shields.io/badge/powered%20by-FFmpeg-red.svg)](https://ffmpeg.org/)
+[![Gradio UI](https://img.shields.io/badge/UI-Gradio-ff69b4.svg)](https://www.gradio.app/)
 
-Trimly is a lightweight, no-nonsense tool that automatically removes long pauses and dead air from audio files. Ideal for podcasters, voiceover artists, audiobook producers — or anyone who values clean, punchy audio.
+**Silence Trimmer for Voiceovers — powered by FFmpeg, Python & Gradio**
 
----
+Trimly is a smart, minimalist tool for cutting long pauses and dead air from audio. It’s perfect for podcasters, voice actors, audiobook narrators — or anyone who wants cleaner, tighter voice recordings with zero editing.
+
+🚀 [**Live Demo on Hugging Face Spaces →**](https://huggingface.co/spaces/your-username/trimly)
 
 ## Features
 
-- 🧠 FFmpeg-powered silence removal
-- 🧰 Customizable threshold and pause length
-- 🎛️ Intuitive web UI (built with Gradio)
-- 🔄 Works with `.wav` and `.mp3` files
-- 🧼 Cleans up audio with zero editing skills required
+- ⚡ Fast silence removal using `ffmpeg` under the hood
+- 🎚️ Customizable threshold and minimum pause length
+- 🧠 Simple, clean web UI built with Gradio
+- 🔊 Works with `.mp3` and `.wav` files
+- 🧼 Zero editing experience required
 
----
+## Getting Started
 
-## Installation
-
-**1. Clone the Repo**
+### 1. Clone the repo
 
 ```bash
-git clone https://github.com/LogicWeave/trimly.git
+git clone https://github.com/LogicWeaver/trimly.git
 cd trimly
 ```
 
-**2. Create a Virtual Environment (optional but recommended)**
+### 2. (Optional) Create a virtual environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-**3. Install Requirements**
+### 3. Install dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install .
 ```
 
-**4. Run the App**
+### 4. Launch the app
 
 ```bash
 python app.py
 ```
 
-This will launch the app in your browser.
-
----
+Trimly will launch in your default browser.
 
 ## How It Works
 
-Trimly uses FFmpeg’s `silenceremove` filter to analyze and remove silent parts from your audio. You control how silence is detected with:
+Trimly uses FFmpeg’s `silenceremove` filter to detect and trim silent segments. You control how it behaves:
 
-- **Silence Threshold (dB)** – How quiet a segment must be to count as silence
-- **Min Silence Duration (sec)** – How long a pause must be before trimming kicks in
+- **Silence Threshold (dB)**: How quiet is “silent”?
+- **Minimum Silence Duration (sec)**: How long before it gets chopped?
 
-The result? Cleaner, tighter audio — instantly.
+This lets you remove awkward gaps from voiceovers with surgical precision.
 
 ## Contributing
 
