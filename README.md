@@ -75,13 +75,13 @@ Trimly is a powerful audio processing tool that automatically removes unwanted s
 
 ## Parameters Guide
 
-### Silence Threshold (dB)
+**Silence Threshold (dB)**
 
 - **-45 dB**: Good starting point for most recordings
 - **-60 dB**: More aggressive, removes quieter background noise
 - **-30 dB**: Conservative, only removes obvious silence
 
-### Min Silence Duration (seconds)
+**Min Silence Duration (seconds)**
 
 - **0.05s**: Standard for voice recordings
 - **0.1s**: Preserves natural pauses
