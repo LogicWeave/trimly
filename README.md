@@ -10,7 +10,7 @@
 
 Trimly is a powerful audio processing tool that automatically removes unwanted silence and dead air from voice recordings, making them cleaner and more professional. Perfect for voiceovers, audiobooks, podcasts, and content creators.
 
-🚀 **[Try Trimly Demo on Hugging Face](https://huggingface.co/spaces/LogicWeaver/trimly)**
+🚀 **[Try Trimly Demo on Hugging Face](https://huggingface.co/spaces/LogicWeaveHF/trimly)**
 
 ## ✨ Features
 
