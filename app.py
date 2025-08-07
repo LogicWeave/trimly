@@ -48,6 +48,7 @@ def interface():
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
       body, .gradio-container {font-family: 'Poppins', sans-serif;}
       .gradio-container {padding: 2rem;}
+      footer, #footer, .svelte-1ipelgc {display: none !important;}
       """
    ) as demo:
 
@@ -79,6 +80,11 @@ def interface():
 
             ⚡ _Built for voiceovers, audiobooks, and content creators who hate dead air._
             """)
+      gr.Markdown("""
+      <div style='position: fixed; bottom: 10px; left: 0; width: 100%; text-align: center; font-size: 0.85em; color: #666; z-index: 999; '>
+         Built with ❤️ by <a href='https://github.com/usamaraajput' target='_blank'>Usama Arshad</a> | Github Repository <a href='https://github.com/LogicWeave/trimly' target='_blank'>Trimly</a> (MIT License)
+      </div>
+      """)
 
       # Connect functions to buttons
       trim_btn.click(
